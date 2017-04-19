@@ -1,5 +1,32 @@
 @import 'libs/jquery-ui.css';
 
+@font-face {
+  font-family: 'Fredericka the Great';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fredericka the Great'), local('FrederickatheGreat'), url(https://fonts.gstatic.com/s/frederickathegreat/v5/7Es8Lxoku-e5eOZWpxw18oRQ8DD0aAk7ES4QQYHqQcw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'IM Fell English';
+  font-style: normal;
+  font-weight: 400;
+  src: local('IM FELL English Roman'), local('IM_FELL_English_Roman'), url(https://fonts.gstatic.com/s/imfellenglish/v6/xwIisCqGFi8pff-oa9uSVEGbiRUdT7ySew84y3CmKhM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'IM Fell English';
+  font-style: italic;
+  font-weight: 400;
+  src: local('IM FELL English Italic'), local('IM_FELL_English_Italic'), url(https://fonts.gstatic.com/s/imfellenglish/v6/Z3cnIAI_L3XTRfz4JuZKbh6gonR1dbHzi1tY1B_-m1g.ttf) format('truetype');
+}
+
+body {
+    font-family: 'IM Fell English';
+}
+
+h1 {
+    font-family: 'Fredericka the Great';
+}
+
 img {
     width: 60px;
 }
