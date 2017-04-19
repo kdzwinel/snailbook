@@ -1,1 +1,5 @@
 @import 'libs/jquery-ui.css';
+
+img {
+    width: 60px;
+}
