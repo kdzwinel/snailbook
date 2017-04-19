@@ -20,24 +20,33 @@
 }
 
 body {
-    font-family: 'IM Fell English';
+    font-family: 'IM Fell English' !important;
 }
 
 h1 {
-    font-family: 'Fredericka the Great';
+    font-family: 'Fredericka the Great' !important;
 }
 
 img {
     width: 60px;
 }
 
-sidebar {
-    position: absolute;
-    height: 500px;
-    left: 0;
-    top: -490px;
+.wrapper {
+    display: flex;
+}
+
+aside {
     background: green;
-    width: 100vw;
+    width: 20vw;
+    order: 2;
+}
+
+main {
+    width: 80vw;
+}
+
+sidebar:hover {
+    top: 0;
 }
 
 sidebar li, footer li {
@@ -52,8 +61,4 @@ footer {
     width: 100vw;
     background: blue;
     height: 50px;
-}
-
-sidebar:hover {
-    top: 0;
 }

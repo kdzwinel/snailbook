@@ -76,8 +76,10 @@ END OF TERMS AND CONDITIONS
     <script src="libs/jquery-3.2.1.js"></script>
 
     <!-- jQuery UI -->
-    <link rel="stylesheet" href="main.css">
     <script src="libs/jquery-ui.js"></script>
+
+    <!-- my CSS -->
+    <link rel="stylesheet" href="main.css">
 
     <!-- Optimize code that makes sure there is no "flash of variant A" -->
     <style>.async-hide { opacity: 0 !important} </style>
@@ -100,67 +102,72 @@ END OF TERMS AND CONDITIONS
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BXHMGN"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-    <sidebar>
-        <!-- Facebook share -->
-        <div id="fb-root"></div>
-        <script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=112024398909426";
-        fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
-
-        <div class="fb-share-button" data-href="http://goo.gl/MsckJb" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fgoo.gl%2FMsckJb&amp;src=sdkpreparse">Share</a></div>
-
-        <!-- Google Plus share -->
-        <script src="https://apis.google.com/js/platform.js" async defer></script>
-        <div class="g-plus" data-action="share" data-annotation="vertical-bubble" data-height="60" data-href="http://goo.gl/MsckJb"></div>
-
-        <!-- Twitter something -->
-        <script>window.twttr = (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0],
-            t = window.twttr || {};
-        if (d.getElementById(id)) return t;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "https://platform.twitter.com/widgets.js";
-        fjs.parentNode.insertBefore(js, fjs);
-
-        t._e = [];
-        t.ready = function(f) {
-            t._e.push(f);
-        };
-
-        return t;
-        }(document, "script", "twitter-wjs"));</script>
-
-        <a class="twitter-share-button"
-        href="https://twitter.com/intent/tweet?text=Slooow"
-        data-size="large">
-        Tweet</a>
-    </sidebar>
-
     <footer>
         <ul>
             <li class="interlanguage-link interwiki-ang"><a href="https://ang.wikipedia.org/wiki/Wikip%C7%A3dia:Tutorial_(Wikipedia_links)" title="Wikipǣdia:Tutorial (Wikipedia links) – Old English" lang="ang" hreflang="ang" class="interlanguage-link-target">Ænglisc</a></li><li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D9%88%D9%8A%D9%83%D9%8A%D8%A8%D9%8A%D8%AF%D9%8A%D8%A7:%D8%AF%D8%B1%D9%88%D8%B3_(%D9%88%D8%B5%D9%84%D8%A7%D8%AA_%D9%88%D9%8A%D9%83%D9%8A%D8%A8%D9%8A%D8%AF%D9%8A%D8%A7)" title="ويكيبيديا:دروس (وصلات ويكيبيديا) – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target">العربية</a></li><li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/%D0%A3%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%9D%D0%B0%D1%80%D1%8A%D1%87%D0%BD%D0%B8%D0%BA/%D0%9F%D1%80%D0%B5%D0%BF%D1%80%D0%B0%D1%82%D0%BA%D0%B8" title="Уикипедия:Наръчник/Препратки – Bulgarian" lang="bg" hreflang="bg" class="interlanguage-link-target">Български</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Guia_b%C3%A0sica/Enlla%C3%A7os" title="Viquipèdia:Guia bàsica/Enllaços – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Wikipedie:Pr%C5%AFvodce_(odkazy)" title="Wikipedie:Průvodce (odkazy) – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target">Čeština</a></li><li class="interlanguage-link interwiki-cy"><a href="https://cy.wikipedia.org/wiki/Wicipedia:Tiwtorial_(dolenni_Wicipedia)" title="Wicipedia:Tiwtorial (dolenni Wicipedia) – Welsh" lang="cy" hreflang="cy" class="interlanguage-link-target">Cymraeg</a></li><li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/Hj%C3%A6lp:Guide_(henvisninger)" title="Hjælp:Guide (henvisninger) – Danish" lang="da" hreflang="da" class="interlanguage-link-target">Dansk</a></li><li class="interlanguage-link interwiki-et"><a href="https://et.wikipedia.org/wiki/Juhend:%C3%95ppek%C3%A4ik_(Lingid)" title="Juhend:Õppekäik (Lingid) – Estonian" lang="et" hreflang="et" class="interlanguage-link-target">Eesti</a></li><li class="interlanguage-link interwiki-el"><a href="https://el.wikipedia.org/wiki/%CE%92%CE%B9%CE%BA%CE%B9%CF%80%CE%B1%CE%AF%CE%B4%CE%B5%CE%B9%CE%B1:%CE%9F%CE%B4%CE%B7%CE%B3%CF%8C%CF%82_%CE%B3%CE%B9%CE%B1_%CE%BD%CE%AD%CE%BF%CF%85%CF%82_%CF%87%CF%81%CE%AE%CF%83%CF%84%CE%B5%CF%82/%CE%95%CF%83%CF%89%CF%84%CE%B5%CF%81%CE%B9%CE%BA%CE%BF%CE%AF_%CF%83%CF%8D%CE%BD%CE%B4%CE%B5%CF%83%CE%BC%CE%BF%CE%B9" title="Βικιπαίδεια:Οδηγός για νέους χρήστες/Εσωτερικοί σύνδεσμοι – Greek" lang="el" hreflang="el" class="interlanguage-link-target">Ελληνικά</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Ayuda:Tutorial_(enlaces_internos)" title="Ayuda:Tutorial (enlaces internos) – Spanish" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%AF%DB%8C%D8%A7:%D8%AE%D9%88%D8%AF%D8%A2%D9%85%D9%88%D8%B2_(%D9%BE%DB%8C%D9%88%D9%86%D8%AF%D9%87%D8%A7%DB%8C_%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%AF%DB%8C%D8%A7)" title="ویکی‌پدیا:خودآموز (پیوندهای ویکی‌پدیا) – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Liens_internes" title="Wikipédia:Liens internes – French" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/Wikipedia:Gu%C3%ADa/Ligaz%C3%B3ns_internas" title="Wikipedia:Guía/Ligazóns internas – Galician" lang="gl" hreflang="gl" class="interlanguage-link-target">Galego</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%EA%B8%B8%EB%9D%BC%EC%9E%A1%EC%9D%B4_(%EB%82%B4%EB%B6%80_%EB%A7%81%ED%81%AC)" title="위키백과:길라잡이 (내부 링크) – Korean" lang="ko" hreflang="ko" class="interlanguage-link-target">한국어</a></li><li class="interlanguage-link interwiki-hi"><a href="https://hi.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE:%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%B6%E0%A4%BF%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE_%E0%A4%9C%E0%A5%8B%E0%A4%A1%E0%A4%BC" title="विकिपीडिया:स्वशिक्षा/विकिपीडिया जोड़ – Hindi" lang="hi" hreflang="hi" class="interlanguage-link-target">हिन्दी</a></li><li class="interlanguage-link interwiki-hr"><a href="https://hr.wikipedia.org/wiki/Wikipedija:Te%C4%8Daj_(Wikipoveznice)" title="Wikipedija:Tečaj (Wikipoveznice) – Croatian" lang="hr" hreflang="hr" class="interlanguage-link-target">Hrvatski</a></li><li class="interlanguage-link interwiki-is"><a href="https://is.wikipedia.org/wiki/Hj%C3%A1lp:N%C3%A1mskei%C3%B0/Tenglar" title="Hjálp:Námskeið/Tenglar – Icelandic" lang="is" hreflang="is" class="interlanguage-link-target">Íslenska</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Aiuto:Tutorial/Link" title="Aiuto:Tutorial/Link – Italian" lang="it" hreflang="it" class="interlanguage-link-target">Italiano</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/%D7%95%D7%99%D7%A7%D7%99%D7%A4%D7%93%D7%99%D7%94:%D7%95%D7%99%D7%A7%D7%99%D7%A4%D7%93%D7%99%D7%94_%D7%A6%D7%A2%D7%93_%D7%90%D7%97%D7%A8_%D7%A6%D7%A2%D7%93/3" title="ויקיפדיה:ויקיפדיה צעד אחר צעד/3 – Hebrew" lang="he" hreflang="he" class="interlanguage-link-target">עברית</a></li><li class="interlanguage-link interwiki-ka"><a href="https://ka.wikipedia.org/wiki/%E1%83%95%E1%83%98%E1%83%99%E1%83%98%E1%83%9E%E1%83%94%E1%83%93%E1%83%98%E1%83%90:%E1%83%9B%E1%83%90%E1%83%A1%E1%83%AC%E1%83%90%E1%83%95%E1%83%9A%E1%83%94%E1%83%91%E1%83%94%E1%83%9A%E1%83%98_(%E1%83%95%E1%83%98%E1%83%99%E1%83%98-%E1%83%91%E1%83%9B%E1%83%A3%E1%83%9A%E1%83%94%E1%83%91%E1%83%98)" title="ვიკიპედია:მასწავლებელი (ვიკი-ბმულები) – Georgian" lang="ka" hreflang="ka" class="interlanguage-link-target">ქართული</a></li><li class="interlanguage-link interwiki-lv"><a href="https://lv.wikipedia.org/wiki/Vikip%C4%93dija:Pam%C4%81c%C4%ABba_(Vikip%C4%93dijas_saites)" title="Vikipēdija:Pamācība (Vikipēdijas saites) – Latvian" lang="lv" hreflang="lv" class="interlanguage-link-target">Latviešu</a></li><li class="interlanguage-link interwiki-lb"><a href="https://lb.wikipedia.org/wiki/Wikipedia:Artikel/Linken" title="Wikipedia:Artikel/Linken – Luxembourgish" lang="lb" hreflang="lb" class="interlanguage-link-target">Lëtzebuergesch</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/Wikip%C3%A9dia:Az_els%C5%91_l%C3%A9p%C3%A9sek_(bels%C5%91_hivatkoz%C3%A1sok)" title="Wikipédia:Az első lépések (belső hivatkozások) – Hungarian" lang="hu" hreflang="hu" class="interlanguage-link-target">Magyar</a></li><li class="interlanguage-link interwiki-mt"><a href="https://mt.wikipedia.org/wiki/G%C4%A7ajnuna:Gwida_essenzjali/%C4%A6oloq" title="Għajnuna:Gwida essenzjali/Ħoloq – Maltese" lang="mt" hreflang="mt" class="interlanguage-link-target">Malti</a></li><li class="interlanguage-link interwiki-ms"><a href="https://ms.wikipedia.org/wiki/Wikipedia:Tutorial/Pautan_Wikipedia" title="Wikipedia:Tutorial/Pautan Wikipedia – Malay" lang="ms" hreflang="ms" class="interlanguage-link-target">Bahasa Melayu</a></li><li class="interlanguage-link interwiki-my"><a href="https://my.wikipedia.org/wiki/Wikipedia:%E1%80%9E%E1%80%84%E1%80%BA%E1%80%81%E1%80%94%E1%80%BA%E1%80%B8%E1%80%85%E1%80%AC%E1%80%99%E1%80%BB%E1%80%AC%E1%80%B8/%E1%80%9D%E1%80%AE%E1%80%80%E1%80%AE%E1%80%95%E1%80%AE%E1%80%B8%E1%80%92%E1%80%AE%E1%80%B8%E1%80%9A%E1%80%AC%E1%80%B8_%E1%80%A1%E1%80%81%E1%80%BB%E1%80%AD%E1%80%90%E1%80%BA%E1%80%A1%E1%80%86%E1%80%80%E1%80%BA%E1%80%99%E1%80%BB%E1%80%AC%E1%80%B8" title="Wikipedia:သင်ခန်းစာများ/ဝီကီပီးဒီးယား အချိတ်အဆက်များ – Burmese" lang="my" hreflang="my" class="interlanguage-link-target">မြန်မာဘာသာ</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Wikipedia:Snelcursus_(Wikipedia_links)" title="Wikipedia:Snelcursus (Wikipedia links) – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target">Nederlands</a></li><li class="interlanguage-link interwiki-ne"><a href="https://ne.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE:%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%B6%E0%A4%BF%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE_%E0%A4%9C%E0%A5%8B%E0%A4%A1" title="विकिपीडिया:स्वशिक्षा/विकिपीडिया जोड – Nepali" lang="ne" hreflang="ne" class="interlanguage-link-target">नेपाली</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/Wikipedia:%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB_%E3%83%AA%E3%83%B3%E3%82%AF" title="Wikipedia:チュートリアル リンク – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target">日本語</a></li><li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/Wikipedia:Veiledning/Wikipedia-lenker" title="Wikipedia:Veiledning/Wikipedia-lenker – Norwegian" lang="no" hreflang="no" class="interlanguage-link-target">Norsk bokmål</a></li><li class="interlanguage-link interwiki-or"><a href="https://or.wikipedia.org/wiki/%E0%AC%89%E0%AC%87%E0%AC%95%E0%AC%BF%E0%AC%AA%E0%AC%BF%E0%AC%A1%E0%AC%BC%E0%AC%BF%E0%AC%86:%E0%AC%B6%E0%AC%BF%E0%AC%95%E0%AD%8D%E0%AC%B7%E0%AC%A3/Wikipedia_links" title="ଉଇକିପିଡ଼ିଆ:ଶିକ୍ଷଣ/Wikipedia links – Odia" lang="or" hreflang="or" class="interlanguage-link-target">ଓଡ଼ିଆ</a></li><li class="interlanguage-link interwiki-ps"><a href="https://ps.wikipedia.org/wiki/%D9%88%D9%8A%DA%A9%D9%8A%D9%BE%DB%90%DA%89%D9%8A%D8%A7:%DA%81%D8%A7%D9%86_%D8%B2%D8%AF%D9%87_%DA%A9%DA%93%D9%87_(%D8%AF_%D9%88%D9%8A%DA%A9%D9%8A%D9%BE%DB%90%DA%89%D9%8A%D8%A7_%D8%AA%DA%93%D9%86%DB%90)" title="ويکيپېډيا:ځان زده کړه (د ويکيپېډيا تړنې) – Pashto" lang="ps" hreflang="ps" class="interlanguage-link-target">پښتو</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Ajuda:Tutorial/Liga%C3%A7%C3%B5es_internas" title="Ajuda:Tutorial/Ligações internas – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target">Português</a></li><li class="interlanguage-link interwiki-ro"><a href="https://ro.wikipedia.org/wiki/Wikipedia:Ghid_(Leg%C4%83turi_Wikipedia)" title="Wikipedia:Ghid (Legături Wikipedia) – Romanian" lang="ro" hreflang="ro" class="interlanguage-link-target">Română</a></li><li class="interlanguage-link interwiki-sco"><a href="https://sco.wikipedia.org/wiki/Wikipedia:Lessons_(Wikipaedia_airtins)" title="Wikipedia:Lessons (Wikipaedia airtins) – Scots" lang="sco" hreflang="sco" class="interlanguage-link-target">Scots</a></li><li class="interlanguage-link interwiki-sk"><a href="https://sk.wikipedia.org/wiki/Wikip%C3%A9dia:Pr%C3%ADru%C4%8Dka/Odkazy" title="Wikipédia:Príručka/Odkazy – Slovak" lang="sk" hreflang="sk" class="interlanguage-link-target">Slovenčina</a></li><li class="interlanguage-link interwiki-sl"><a href="https://sl.wikipedia.org/wiki/Wikipedija:Vadnica_(Notranje_povezave)" title="Wikipedija:Vadnica (Notranje povezave) – Slovenian" lang="sl" hreflang="sl" class="interlanguage-link-target">Slovenščina</a></li><li class="interlanguage-link interwiki-so"><a href="https://so.wikipedia.org/wiki/Wikipedia:Waxbarid/Xidhiidhin" title="Wikipedia:Waxbarid/Xidhiidhin – Somali" lang="so" hreflang="so" class="interlanguage-link-target">Soomaaliga</a></li><li class="interlanguage-link interwiki-ckb"><a href="https://ckb.wikipedia.org/wiki/%D9%88%DB%8C%DA%A9%DB%8C%D9%BE%DB%8C%D8%AF%DB%8C%D8%A7:%D9%81%DB%8E%D8%B1%DA%A9%D8%A7%D8%B1%DB%8C_(%D8%A8%DB%95%D8%B3%D8%AA%DB%95%D8%B1%DB%95%DA%A9%D8%A7%D9%86_%D9%84%DB%95_%D9%88%DB%8C%DA%A9%DB%8C%D9%BE%DB%8C%D8%AF%DB%8C%D8%A7)" title="ویکیپیدیا:فێرکاری (بەستەرەکان لە ویکیپیدیا) – Central Kurdish" lang="ckb" hreflang="ckb" class="interlanguage-link-target">کوردیی ناوەندی</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%98%D0%B0:%D0%A3%D0%BF%D1%83%D1%82%D1%81%D1%82%D0%B2%D0%B0/%D0%92%D0%B8%D0%BA%D0%B8%D0%B2%D0%B5%D0%B7%D0%B5" title="Википедија:Упутства/Викивезе – Serbian" lang="sr" hreflang="sr" class="interlanguage-link-target">Српски / srpski</a></li><li class="interlanguage-link interwiki-sh"><a href="https://sh.wikipedia.org/wiki/Wikipedia:Kurs/Te%C4%8Daj_(Wikipoveznice)" title="Wikipedia:Kurs/Tečaj (Wikipoveznice) – Serbo-Croatian" lang="sh" hreflang="sh" class="interlanguage-link-target">Srpskohrvatski / српскохрватски</a></li><li class="interlanguage-link interwiki-te"><a href="https://te.wikipedia.org/wiki/%E0%B0%B5%E0%B0%BF%E0%B0%95%E0%B1%80%E0%B0%AA%E0%B1%80%E0%B0%A1%E0%B0%BF%E0%B0%AF%E0%B0%BE:%E0%B0%AA%E0%B0%BE%E0%B0%A0%E0%B0%82_(%E0%B0%B5%E0%B0%BF%E0%B0%95%E0%B1%80%E0%B0%AA%E0%B1%80%E0%B0%A1%E0%B0%BF%E0%B0%AF%E0%B0%BE_%E0%B0%B2%E0%B0%BF%E0%B0%82%E0%B0%95%E0%B1%81%E0%B0%B2%E0%B1%81)" title="వికీపీడియా:పాఠం (వికీపీడియా లింకులు) – Telugu" lang="te" hreflang="te" class="interlanguage-link-target">తెలుగు</a></li><li class="interlanguage-link interwiki-th"><a href="https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B4%E0%B8%81%E0%B8%B4%E0%B8%9E%E0%B8%B5%E0%B9%80%E0%B8%94%E0%B8%B5%E0%B8%A2:%E0%B8%AA%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99/%E0%B8%A7%E0%B8%B4%E0%B8%81%E0%B8%B4%E0%B8%9E%E0%B8%B5%E0%B9%80%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B8%A5%E0%B8%B4%E0%B8%87%E0%B8%81%E0%B9%8C" title="วิกิพีเดีย:สอนการใช้งาน/วิกิพีเดียลิงก์ – Thai" lang="th" hreflang="th" class="interlanguage-link-target">ไทย</a></li><li class="interlanguage-link interwiki-ur"><a href="https://ur.wikipedia.org/wiki/%D9%88%DB%8C%DA%A9%DB%8C%D9%BE%DB%8C%DA%88%DB%8C%D8%A7:%D8%A2%D9%85%D9%88%D8%AE%D8%AA%D8%A7%D8%B1_(%D9%88%DB%8C%DA%A9%DB%8C_%D8%B1%D9%88%D8%A7%D8%A8%D8%B7)" title="ویکیپیڈیا:آموختار (ویکی روابط) – Urdu" lang="ur" hreflang="ur" class="interlanguage-link-target">اردو</a></li><li class="interlanguage-link interwiki-vi"><a href="https://vi.wikipedia.org/wiki/Wikipedia:S%C3%A1ch_h%C6%B0%E1%BB%9Bng_d%E1%BA%ABn/Li%C3%AAn_k%E1%BA%BFt_Wikipedia" title="Wikipedia:Sách hướng dẫn/Liên kết Wikipedia – Vietnamese" lang="vi" hreflang="vi" class="interlanguage-link-target">Tiếng Việt</a></li><li class="interlanguage-link interwiki-ts"><a href="https://ts.wikipedia.org/wiki/Wikipedia:Tutorial_(Wikipedia_links)" title="Wikipedia:Tutorial (Wikipedia links) – Tsonga" lang="ts" hreflang="ts" class="interlanguage-link-target">Xitsonga</a></li><li class="interlanguage-link interwiki-zh-yue"><a href="https://zh-yue.wikipedia.org/wiki/Wikipedia:%E7%B6%AD%E5%9F%BA%E7%99%BE%E7%A7%91%E6%95%99%E5%AD%B8(%E9%80%A3%E6%96%87%E7%AB%A0)" title="Wikipedia:維基百科教學(連文章) – Cantonese" lang="zh-yue" hreflang="zh-yue" class="interlanguage-link-target">粵語</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/Wikipedia:%E6%96%B0%E6%89%8B%E5%85%A5%E9%96%80/%E7%B6%AD%E5%9F%BA%E6%96%87%E6%9C%AC" title="Wikipedia:新手入門/維基文本 – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li>
         </ul>
     </footer>
 
-    <main>
-        <h1>Snailbook!</h1>
+    <div class='wrapper'>
+        <aside>
+            <!-- Facebook share -->
+            <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=112024398909426";
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
 
-        <!-- page content -->
-        <a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fgoo.gl%2FMsckJb">how slow am I?</a>
+            <div class="fb-share-button" data-href="http://goo.gl/MsckJb" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fgoo.gl%2FMsckJb&amp;src=sdkpreparse">Share</a></div>
 
-        <ul>
-            <li><img src="http://source.unsplash.com/1024x768/?snail" /></li>
-            <li><img src="http://source.unsplash.com/768x1024/?snail" /></li>
-            <li><img src="http://source.unsplash.com/800x600/?snail" /></li>
-            <li><img src="http://source.unsplash.com/600x800/?snail" /></li>
-            <li><img src="http://source.unsplash.com/960x800/?snail" /></li>
-            <li><img src="http://source.unsplash.com/800x960/?snail" /></li>
-        </ul>
-    </main>
+            <!-- Google Plus share -->
+            <script src="https://apis.google.com/js/platform.js" async defer></script>
+            <div class="g-plus" data-action="share" data-annotation="vertical-bubble" data-height="60" data-href="http://goo.gl/MsckJb"></div>
+
+            <!-- Twitter something -->
+            <script>window.twttr = (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+                t = window.twttr || {};
+            if (d.getElementById(id)) return t;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+
+            t._e = [];
+            t.ready = function(f) {
+                t._e.push(f);
+            };
+
+            return t;
+            }(document, "script", "twitter-wjs"));</script>
+
+            <a class="twitter-share-button"
+            href="https://twitter.com/intent/tweet?text=Slooow"
+            data-size="large">
+            Tweet</a>
+
+            <!-- some more CSS -->
+            <link rel="stylesheet" href="more.css">
+        </aside>
+
+        <main>
+            <h1>Snailbook!</h1>
+
+            <!-- page content -->
+            <a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fgoo.gl%2FMsckJb">how slow am I?</a>
+
+            <ul>
+                <li><img src="http://source.unsplash.com/1024x768/?snail" /></li>
+                <li><img src="http://source.unsplash.com/768x1024/?snail" /></li>
+                <li><img src="http://source.unsplash.com/800x600/?snail" /></li>
+                <li><img src="http://source.unsplash.com/600x800/?snail" /></li>
+                <li><img src="http://source.unsplash.com/960x800/?snail" /></li>
+                <li><img src="http://source.unsplash.com/800x960/?snail" /></li>
+            </ul>
+        </main>
+    </div>
   </body>
 </html>
