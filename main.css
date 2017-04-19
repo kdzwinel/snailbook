@@ -3,3 +3,30 @@
 img {
     width: 60px;
 }
+
+sidebar {
+    position: absolute;
+    height: 500px;
+    left: 0;
+    top: -490px;
+    background: green;
+    width: 100vw;
+}
+
+sidebar li, footer li {
+    display: inline-block;
+    margin: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    background: blue;
+    height: 50px;
+}
+
+sidebar:hover {
+    top: 0;
+}
