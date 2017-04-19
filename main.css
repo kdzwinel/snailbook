@@ -1,4 +1,5 @@
 @import 'libs/jquery-ui.css';
+@import 'libs/bootstrapgi.css';
 
 @font-face {
   font-family: 'Fredericka the Great';
@@ -43,15 +44,16 @@ aside {
 
 main {
     width: 80vw;
+    padding-bottom: 50px;
 }
 
 sidebar:hover {
     top: 0;
 }
 
-sidebar li, footer li {
+li {
     display: inline-block;
-    margin: 10px;
+    margin: 10px !important;
 }
 
 footer {
@@ -61,4 +63,8 @@ footer {
     width: 100vw;
     background: blue;
     height: 50px;
+}
+
+footer a {
+    color: red;
 }
