@@ -113,83 +113,22 @@ END OF TERMS AND CONDITIONS
         </ul>
     </footer>
 
-    <div class='wrapper'>
-        <aside>
-            <!-- Facebook share -->
-            <div id="fb-root"></div>
-            <script>(function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=112024398909426";
-            fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));</script>
+    <div class='wrapper' id='content'></div>
 
-            <div class="fb-share-button" data-href="http://goo.gl/MsckJb" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fgoo.gl%2FMsckJb&amp;src=sdkpreparse">Share</a></div>
+    <script>
+        var con = document.getElementById('content');
+        var xhr = new XMLHttpRequest();
 
-            <!-- Google Plus share -->
-            <script src="https://apis.google.com/js/platform.js" async defer></script>
-            <div class="g-plus" data-action="share" data-annotation="vertical-bubble" data-height="60" data-href="http://goo.gl/MsckJb"></div>
+        xhr.onreadystatechange = function (e) { 
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                con.innerHTML = xhr.responseText;
+            }
+        }
 
-            <!-- Twitter something -->
-            <script>window.twttr = (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0],
-                t = window.twttr || {};
-            if (d.getElementById(id)) return t;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "https://platform.twitter.com/widgets.js";
-            fjs.parentNode.insertBefore(js, fjs);
-
-            t._e = [];
-            t.ready = function(f) {
-                t._e.push(f);
-            };
-
-            return t;
-            }(document, "script", "twitter-wjs"));</script>
-
-            <a class="twitter-share-button"
-            href="https://twitter.com/intent/tweet?text=Slooow"
-            data-size="large">
-            Tweet</a>
-
-            <!-- some more CSS -->
-            <link rel="stylesheet" href="more.css">
-        </aside>
-
-        <main>
-            <script type="text/javascript"> var infolinks_pid = 2989164; var infolinks_wsid = 0; </script> <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
-
-            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-            <iframe src="https://ocdn.eu/aops/mip/u/uip/20170412/Gigapanel_1180x560_Video/index.html#click=http%3A%2F%2Fcsr.onet.pl%2Fadclick%2FCID%3D136231%2FCCID%3D385297%2FIP%3D201704200116488202428308%2FIV%3D201704200116488202428308%2FCS%3Dfa4%2FNID%3D1746213%2FS%3DRASP_FAKT%2FA%3DGLOWNA%2FSID%3Donet-ad-flat-boxleft1%2FAT%3D1492643813%2FUUID%3Dc7088c911e043acd80c4db9960ae4e0d%2FURL%3Dhttp%3A%2F%2Fwww.tylkohity.pl%2F" style="width: 600px; height: 300px;"></iframe>
-
-            <!-- page content -->
-            <h1>Snailbook!</h1>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non massa vitae tellus scelerisque interdum. Aliquam erat volutpat. Vestibulum porta venenatis tellus sit amet volutpat. Sed quis semper tortor. Maecenas pharetra risus diam. Maecenas vulputate vel arcu vel ornare. Pellentesque auctor, leo vitae ullamcorper volutpat, ex purus varius risus, vitae sagittis tellus quam eget arcu. Curabitur mattis ornare ex sit amet ultrices. Integer laoreet sed dui non auctor. Nulla ultrices libero ut dapibus porta. Nam at quam vestibulum, gravida quam quis, maximus orci. Nam vehicula ligula nibh, sit amet pellentesque sapien sagittis in. Nullam lacinia neque quis luctus vulputate.</p>
-
-            <p>Praesent porta libero at augue sagittis, non ullamcorper risus pulvinar. Phasellus efficitur, massa vel tincidunt laoreet, erat dui faucibus lacus, quis faucibus ante arcu non metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis augue nulla, molestie nec tempor vel, condimentum et ipsum. Integer vel turpis faucibus erat placerat pellentesque. Donec eget leo metus. In accumsan massa est, at auctor nisi pellentesque eu. Fusce tristique sollicitudin libero, ac aliquet enim ullamcorper in. Aenean ac arcu eu metus placerat ultricies non et nisi. Duis nec lacinia justo, et facilisis sem. Sed scelerisque, libero sit amet molestie efficitur, eros magna imperdiet diam, non mollis odio sem malesuada nisl. Phasellus tincidunt eros et justo posuere rhoncus. Sed nec pharetra nisi, vitae tristique sem. Nulla interdum tortor a ultricies sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. In hendrerit diam sed cursus commodo.</p>
-
-            <p>Quisque tristique venenatis euismod. Etiam sodales lorem eu odio eleifend venenatis eget vel risus. Praesent consectetur, nulla aliquet gravida fringilla, eros justo semper libero, vel ullamcorper nisi lacus eget diam. Fusce vel scelerisque sapien, quis sagittis ipsum. Quisque pretium venenatis tortor eu euismod. Ut sed arcu faucibus, mattis arcu ac, porttitor felis. Vivamus elit lacus, tincidunt et sodales quis, volutpat et neque. Morbi ultrices diam augue, non pharetra felis pulvinar vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. In lobortis ex velit, non vestibulum odio posuere quis. Curabitur tempor, mauris vitae malesuada eleifend, sem lectus mollis sem, quis elementum lacus arcu vel metus. Quisque justo lorem, posuere eu condimentum eget, lobortis vel ex.</p>
-
-            <p>Proin imperdiet aliquet semper. Proin rhoncus fringilla urna, nec pharetra nisi. Ut quis metus vel sem lacinia iaculis. Nullam id eros tincidunt, bibendum diam sit amet, ultricies libero. Pellentesque congue neque at rhoncus aliquam. Vestibulum rutrum magna ex. Nulla porta ligula in iaculis tempus. Cras velit odio, vehicula vitae ex vitae, tristique ultrices odio. Cras facilisis felis leo, pharetra volutpat lorem luctus et.</p>
-
-            <p>Praesent pellentesque euismod ipsum, dapibus finibus nisi maximus non. Praesent risus nisl, blandit eget semper ut, scelerisque vitae mauris. Proin facilisis vitae metus cursus eleifend. Quisque non tortor id neque efficitur dignissim. Suspendisse potenti. Vestibulum convallis dolor ipsum, eget vestibulum leo pretium ut. Praesent nulla lacus, commodo ac risus ac, tempor vestibulum dui. Donec eu molestie lorem, imperdiet ullamcorper nibh. Pellentesque commodo pulvinar urna, at dignissim neque ultrices et. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus orci magna, euismod id quam a, viverra fringilla nulla.</p>
-
-            <a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fgoo.gl%2FMsckJb">how slow am I?</a>
-
-            <ul>
-                <li><img src="http://source.unsplash.com/1024x768/?snail" /></li>
-                <li><img src="http://source.unsplash.com/768x1024/?snail" /></li>
-                <li><img src="http://source.unsplash.com/800x600/?snail" /></li>
-                <li><img src="http://source.unsplash.com/600x800/?snail" /></li>
-                <li><img src="http://source.unsplash.com/960x800/?snail" /></li>
-                <li><img src="http://source.unsplash.com/800x960/?snail" /></li>
-                <li><img src="http://www.ece.rice.edu/~wakin/images/lena512.bmp" /></li>
-            </ul>
-        </main>
-    </div>
+        xhr.open("GET", "content.html", false);
+        xhr.setRequestHeader('Content-type', 'text/html');
+        xhr.setRequestHeader('Accept-Encoding', 'gzip;q=0,deflate;q=0');
+        xhr.send();
+    </script>
   </body>
 </html>
